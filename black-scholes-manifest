@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Permissions: sandbox
+Main-Class: GenBS
+Class-Path: org.apache.commons.math.analysis.solvers.jar
+Application-Name: GenBS

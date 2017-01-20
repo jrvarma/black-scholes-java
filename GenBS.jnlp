@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JNLP File for SwingSet2 Demo Application -->
+<jnlp>
+  <information>
+    <title>GenBS</title>
+    <vendor>Prof. Jayanth R. Varma (jrvarma at iima dot ac dot in)</vendor>
+    <homepage href=""/>
+    <description>GenBS</description>
+    <description kind="short">Black Scholes Formula</description>
+    <icon href="./empty.jpg"/>
+    <offline-allowed/> 
+  </information>
+  <security>sandbox</security>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-esa -Xnoclassgc"/>
+    <jar href="./GenBS.jar"/>
+  </resources>
+  <application-desc main-class="GenBS"/>
+</jnlp> 
